@@ -18,7 +18,6 @@ Snippets for react tests.
 * `rtc` - creates test boilerplate for **C**omponent
 * `rtr` - TestUtils.**r**enderIntoDocument
 * `rtfct` - TestUtils.**f**indRenderedDOM**C**omponentWith**T**ag
-* `rtfn` - TestUtils.**f**indRenderedDOM**C**omponentWith**T**ag
 
 ## Installation
 Using Vundle:
