@@ -9,7 +9,7 @@ Snippets for react components
 * `rc` - boilerplate for subclass of **C**omponent
 * `rfdn` - **R**eact.**f**ind**D**OM**N**ode
 * rpt... - **P**rop**T**ypes records
-  * ``rptr`` - **P**rop**T**ypes.[$1].isRequired
+  * ``rptr`` - **P**rop**T**ypes.[$1].is**R**equired
   * ``rptar`` - **P**rop**T**ypes.**a**rray.is**R**equired
   * ``rptbr`` - **P**rop**T**ypes.**b**ool.is**R**equired
   * ``rptfr`` - **P**rop**T**ypes.**f**unc.is**R**equired
