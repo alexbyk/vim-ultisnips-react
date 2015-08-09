@@ -39,14 +39,14 @@ describe("`!p snip.rv = fn_base`", () => {
 });
 endsnippet
 
-snippet rtr "React renderIntoDocument"
+snippet rtr "React TestUtils.renderIntoDocument"
 const ${2/^\w/\l$0/} = TestUtils.renderIntoDocument(<${2:`!p snip.rv = fn_base`} ${1: }/>);
 endsnippet
 
-snippet rtfct "React renderIntoDocument"
+snippet rtfct "React TestUtils.findRenderedDOMComponentWithTag"
 const $1 = TestUtils.findRenderedDOMComponentWithTag(${2:`!p snip.rv = lower_first(fn_base)`}, '${1:tagname}');
 endsnippet
 
-snippet rtfdn "findDOMNode"
+snippet rtfdn "React.findDOMNode"
 const node${1/^\w+/\u$0/} = React.findDOMNode($1);
 endsnippet
