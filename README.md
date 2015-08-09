@@ -17,7 +17,12 @@ Snippets for react components
 Snippets for react tests.
 * `rtc` - creates test boilerplate for **C**omponent
 * `rtr` - TestUtils.**r**enderIntoDocument
-* `rtfct` - TestUtils.**f**indRenderedDOM**C**omponentWith**T**ag
+* `rtfrdct` - TestUtils.**f**ind**R**endered**D**OM**C**omponentWith**T**ag
+* `rtfrdcc` - TestUtils.**f**ind**R**endered**D**OM**C**omponentWith**C**lass
+* `rtfrct` - TestUtils.**f**ind**R**endered**C**omponentWith**T**ype
+* `rtsrdct` - TestUtils.**s**cry**R**endered**D**OM**C**omponentsWith**T**ag
+* `rtsrdcc` - TestUtils.**s**cry**R**endered**D**OM**C**omponentsWith**C**lass
+* `rtsrct` - TestUtils.**s**cry**R**endered**C**omponentsWith**T**ype
 
 ## Installation
 Using Vundle:
