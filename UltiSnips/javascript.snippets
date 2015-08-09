@@ -20,6 +20,10 @@ export default class `!p snip.rv = fn_base` extends Component {
 }
 endsnippet
 
+snippet rfn "React.findDOMNode"
+const node${1/^\w+/\u$0/} = React.findDOMNode($1);
+endsnippet
+
 # --------- rpt
 snippet rptfr "PropTypes.func.isRequired"
 $1: PropTypes.func.isRequired
@@ -60,6 +64,3 @@ snippet rtfct "React TestUtils.findRenderedDOMComponentWithTag"
 const $1 = TestUtils.findRenderedDOMComponentWithTag(${2:`!p snip.rv = lower_first(fn_base)`}, '${1:tagname}');
 endsnippet
 
-snippet rtfdn "React.findDOMNode"
-const node${1/^\w+/\u$0/} = React.findDOMNode($1);
-endsnippet
