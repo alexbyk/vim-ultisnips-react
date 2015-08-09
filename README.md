@@ -7,7 +7,7 @@ You must follow the convention: `MyComponent` source file is `MyComponent.js` an
 Snippets for react components
 
 * `rc` - boilerplate for subclass of **C**omponent
-* `rfn` - React.findDOMNode
+* `rfdn` - **R**eact.**f**ind**D**OM**N**ode
 * rpt - **P**rop**T**ypes records
   * ``rptfr`` - **P**rop**T**ypes.**f**unc.is**R**equired
   * ``rptsr`` - **P**rop**T**ypes.**s**tring.is**R**equired
