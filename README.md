@@ -1,7 +1,7 @@
 # vim-ultisnips-react
 Vim  UltiSnips snippets for React using modern ES6 syntax
 
-You must follow the convention: `MyComponent` source file is `MyComponent.js` and test for it is `MyComponent.spec.js` or `MyComponent.test.js` in the same directory. This allows to generate variables and classes
+You must follow the convention: `MyComponent`'s source file is `MyComponent.js` and the test for it is `MyComponent.spec.js` or `MyComponent.test.js` in the same directory. This allows to generate variables and classes
 
 ## Snippets r...
 Snippets for react components
