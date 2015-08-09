@@ -3,12 +3,12 @@ Vim  UltiSnips snippets for React using modern ES6 syntax
 
 You must follow the convention: `MyComponent` source file is `MyComponent.js` and test for it is `MyComponent.spec.js` or `MyComponent.test.js` in the same directory. This allows to generate variables and classes
 
-## Snippets r
+## Snippets r...
 Snippets for react components
 
 * `rc` - boilerplate for subclass of **C**omponent
 * `rfdn` - **R**eact.**f**ind**D**OM**N**ode
-* rpt - **P**rop**T**ypes records
+* rpt... - **P**rop**T**ypes records
   * ``rptr`` - **P**rop**T**ypes.[$1].isRequired
   * ``rptar`` - **P**rop**T**ypes.**a**rray.is**R**equired
   * ``rptbr`` - **P**rop**T**ypes.**b**ool.is**R**equired
@@ -19,8 +19,9 @@ Snippets for react components
 
 Other types will be (or won't be) implemented soon. Pull requests are welcome
 
-## Snippets rt
+## Snippets rt...
 Snippets for react tests.
+
 * `rtc` - creates test boilerplate for **C**omponent
 * `rtr` - TestUtils.**r**enderIntoDocument
 * `rtfrdct` - TestUtils.**f**ind**R**endered**D**OM**C**omponentWith**T**ag
