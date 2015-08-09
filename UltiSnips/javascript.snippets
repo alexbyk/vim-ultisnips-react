@@ -1,0 +1,52 @@
+global !p
+fn_base = fn.split(os.extsep)[0];
+lower_first = lambda s: s[:1].lower() + s[1:] if s else ''
+endglobal
+
+# -------------- r (react)
+snippet rc "React Component"
+/* beautify preserve:start */
+import React, {PropTypes, Component} from 'react';
+/* beautify preserve:end */
+
+export default class `!p snip.rv = fn_base` extends Component {
+	static propTypes = {
+		${2:onMyAction: PropTypes.func.isRequired}
+	}
+
+	render() {
+		return (${1:<div>Hello world</div>});
+	}
+}
+endsnippet
+
+# -------------- rt(react test)
+snippet rtc "React test for Component"
+/* beautify preserve:start */
+import chai, { assert } from 'chai';
+import React from 'react/addons';
+import jsdom from 'mocha-jsdom';
+const { TestUtils } = React.addons;
+/* beautify preserve:end */
+
+import `!p snip.rv =  "{0} from './{0}'".format(fn_base)`;
+
+describe("`!p snip.rv = fn_base`", () => {
+	jsdom();
+
+	$0
+
+});
+endsnippet
+
+snippet rtr "React renderIntoDocument"
+const ${2/^\w/\l$0/} = TestUtils.renderIntoDocument(<${2:`!p snip.rv = fn_base`} ${1: }/>);
+endsnippet
+
+snippet rtfct "React renderIntoDocument"
+const $1 = TestUtils.findRenderedDOMComponentWithTag(${2:`!p snip.rv = lower_first(fn_base)`}, '${1:tagname}');
+endsnippet
+
+snippet rtfdn "findDOMNode"
+const node${1/^\w+/\u$0/} = React.findDOMNode($1);
+endsnippet
