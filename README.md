@@ -9,9 +9,14 @@ Snippets for react components
 * `rc` - boilerplate for subclass of **C**omponent
 * `rfdn` - **R**eact.**f**ind**D**OM**N**ode
 * rpt - **P**rop**T**ypes records
-  * ``rptfr`` - **P**rop**T**ypes.**f**unc.is**R**equired
-  * ``rptsr`` - **P**rop**T**ypes.**s**tring.is**R**equired
+  * ``rptar`` - **P**rop**T**ypes.**a**rray.is**R**equired
   * ``rptbr`` - **P**rop**T**ypes.**b**ool.is**R**equired
+  * ``rptfr`` - **P**rop**T**ypes.**f**unc.is**R**equired
+  * ``rptnr`` - **P**rop**T**ypes.**n**number.is**R**equired
+  * ``rptor`` - **P**rop**T**ypes.**o**bject.is**R**equired
+  * ``rptsr`` - **P**rop**T**ypes.**s**tring.is**R**equired
+
+Other types will be (or won't be) implemented soon. Pull requests are welcome
 
 ## Snippets rt
 Snippets for react tests.
