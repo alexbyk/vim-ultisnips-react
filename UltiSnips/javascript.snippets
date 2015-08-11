@@ -55,17 +55,12 @@ endsnippet
 
 # -------------- rt(react test)
 snippet rtc "React test for Component"
-/* beautify preserve:start */
-import chai, { assert } from 'chai';
 import React from 'react/addons';
-import jsdom from 'mocha-jsdom';
-const { TestUtils } = React.addons;
-/* beautify preserve:end */
-
 import `!p snip.rv =  "{0} from './{0}'".format(fn_base)`;
 
+const TestUtils = React.addons.TestUtils;
+
 describe("`!p snip.rv = fn_base`", () => {
-	jsdom();
 
 	$0
 
