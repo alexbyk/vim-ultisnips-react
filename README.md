@@ -16,6 +16,7 @@ Snippets for react components
   * ``rptnr`` - **P**rop**T**ypes.**n**number.is**R**equired
   * ``rptor`` - **P**rop**T**ypes.**o**bject.is**R**equired
   * ``rptsr`` - **P**rop**T**ypes.**s**tring.is**R**equired
+  * ``rpter`` - **P**rop**T**ypes.**e**lement.is**R**equired
 
 Other types will be (or won't be) implemented soon. Pull requests are welcome
 
