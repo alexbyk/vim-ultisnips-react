@@ -59,10 +59,9 @@ endsnippet
 
 # -------------- rt(react test)
 snippet rtc "React test for Component"
-import React from 'react/addons';
+import React, {PropTypes, Component} from 'react';
+import TestUtils from 'react-addons-test-utils';
 import `!p snip.rv =  "{0} from './{0}'".format(fn_base)`;
-
-const TestUtils = React.addons.TestUtils;
 
 describe("`!p snip.rv = fn_base`", () => {
 
