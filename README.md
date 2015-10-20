@@ -6,7 +6,8 @@ You must follow the convention: `MyComponent`'s source file is `MyComponent.js` 
 ## Snippets r...
 Snippets for react components
 
-* `rc` - boilerplate for subclass of **C**omponent
+* `rc` - boilerplate for **R**eact **C**omponent
+* `rcf` - boilerplate for **R**eact **C**omponent as pure **F**unction
 * `rfdn` - **R**eact.**f**ind**D**OM**N**ode
 * rpt... - **P**rop**T**ypes records
   * ``rptr`` - **P**rop**T**ypes.[$1].is**R**equired

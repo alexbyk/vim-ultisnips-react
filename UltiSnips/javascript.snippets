@@ -24,6 +24,17 @@ snippet rfdn "React.findDOMNode"
 const node${1/^\w+/\u$0/} = React.findDOMNode($1);
 endsnippet
 
+# --------- rcf react class function
+snippet rcf "React Component as pure function"
+import React from 'react';
+
+export default function `!p snip.rv = fn_base`(props) {
+	return (
+		<div>`!p snip.rv = fn_base`</div>
+	);
+}
+endsnippet
+
 # --------- rpt
 snippet rptr "PropTypes..isRequired"
 $2: PropTypes.$1.isRequired
@@ -65,9 +76,9 @@ import `!p snip.rv =  "{0} from './{0}'".format(fn_base)`;
 
 describe("`!p snip.rv = fn_base`", () => {
 
-	$0
+		$0
 
-});
+		});
 endsnippet
 
 # find
